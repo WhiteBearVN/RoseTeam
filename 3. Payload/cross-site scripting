@@ -5,6 +5,7 @@
 '-alert(1)-'
 '+alert(1)+'
 \"-alert(1)}//
+http://foo?&apos;-alert(1)-&apos;
 #Angular
 {{$on.constructor('alert(1)')()}}
 #Fuzzing
