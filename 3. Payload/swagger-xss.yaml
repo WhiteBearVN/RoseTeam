@@ -1,4 +1,4 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
   title: Example yaml.spec
   description: |
@@ -7,7 +7,7 @@ paths:
   /accounts:
     get:
       responses:
-        '200':
+        "200":
           description: No response was specified
       tags:
         - accounts
